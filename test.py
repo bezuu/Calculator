@@ -8,7 +8,7 @@ class TestCalc(unittest.TestCase, temp.Kalkulator):
         a = 5
         b = 11
         sign = "+"
-        expected = 116
+        expected = 16
         msg = "Wrong"
         #when
         result = temp.Kalkulator.calc(self, a, b, sign)
@@ -97,33 +97,3 @@ class TestCalc(unittest.TestCase, temp.Kalkulator):
         
 if __name__ == '__main__':
     unittest.main()
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
