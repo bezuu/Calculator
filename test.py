@@ -8,7 +8,7 @@ class TestCalc(unittest.TestCase, temp.Kalkulator):
         a = 5
         b = 11
         sign = "+"
-        expected = 16
+        expected = 116
         msg = "Wrong"
         #when
         result = temp.Kalkulator.calc(self, a, b, sign)
